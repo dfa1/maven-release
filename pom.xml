@@ -24,7 +24,7 @@
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>27</version>
+    <version>32</version>
     <relativePath>../pom/maven/pom.xml</relativePath>
   </parent>
 
@@ -84,7 +84,7 @@
   </contributors>
 
   <properties>
-    <scmVersion>1.9.6-SNAPSHOT</scmVersion>
+    <scmVersion>1.10.0</scmVersion>
     <javaVersion>7</javaVersion>
     <mavenVersion>3.0</mavenVersion>
     <maven.site.path>maven-release-archives/maven-release-LATEST</maven.site.path>
@@ -109,11 +109,6 @@
           <configuration>
             <autoVersionSubmodules>true</autoVersionSubmodules>
           </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.0</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
